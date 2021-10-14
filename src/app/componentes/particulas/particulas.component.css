@@ -1,0 +1,32 @@
+.fondonegro{
+	background: black;
+	width: 100%;
+	height: 700px;
+	padding: 0;
+}
+
+.letras{
+	color: white;
+	position: relative;
+	top: 260px;
+	font-size: 50px;
+}
+
+.textosoluciones{
+	font-size: 60px;
+	font-family: 'lalo','sans-serif';
+
+	letter-spacing: 0.1em;
+}
+
+.typewrite{
+	font-size: 60px;
+	font-family: 'lalo','sans-serif';
+	font-weight: bold;
+
+	letter-spacing: 0.1em;
+}
+
+.typewriter{
+	font-weight: bold;
+}

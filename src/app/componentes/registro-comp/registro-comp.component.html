@@ -1,0 +1,233 @@
+<br>
+<br>
+<br>
+<br>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <h2 class="center">REGISTRO DE LIBROS Y LECTORES</h2>
+    </div>
+  </div><br>
+  <div class="row">
+
+    <div class="col-lg-6">
+      <form>
+        <div class="form-group">
+          <label>Registrar nombre del autor del libro</label>
+          <input type="email" class="form-control" placeholder=""><br>
+          <button type="submit" class="btn btn-primary color">Submit</button>
+        </div><br>
+      </form>
+      <table class="table table-bordered  " id="tabla">
+        <thead class="color letra">
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Autor/Escritor</th>
+              <th scope="col"></th>
+            </tr>
+          </thead>
+          <thead>
+            <tr>
+              <td>1</td>
+              <td>Paulo Coelho</td>
+              <td><a href="#">Editar - Eliminar</a></td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Brandon Sanderson</td>
+              <td><a href="#">Editar - Eliminar</a></td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>JRR Tolkien</td>
+              <td><a href="#">Editar - Eliminar</a></td>
+            </tr>
+          </thead>
+            <tbody>
+            </tbody>
+    </table>
+  </div>
+
+  <div class="col-lg-6">
+    <form>
+      <div class="form-group">
+        <label>Registrar nombre de la editorial del libro</label>
+        <input type="email" class="form-control" placeholder=""><br>
+        <button type="submit" class="btn btn-primary color">Submit</button>
+      </div><br>
+    </form>
+    <table class="table table-bordered  " id="tabla">
+      <thead class="color letra">
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Editorial</th>
+            <th scope="col"></th>
+          </tr>
+        </thead>
+        <thead>
+          <tr>
+            <td>1</td>
+            <td>Nova</td>
+            <td><a href="#">Editar - Eliminar</a></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Planeta</td>
+            <td><a href="#">Editar - Eliminar</a></td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Gredos</td>
+            <td><a href="#">Editar - Eliminar</a></td>
+          </tr>
+        </thead>
+          <tbody>
+          </tbody>
+  </table>
+</div>
+
+  </div>
+  <hr>
+
+  <div class="row">
+    <div class="col-lg-6">
+      <form>
+        <div class="form-group">
+          <label>Registar género del libro</label>
+          <input type="email" class="form-control" placeholder=""><br>
+          <button type="submit" class="btn btn-primary color">Submit</button>
+        </div><br>
+      </form>
+      <table class="table table-bordered  " id="tabla">
+        <thead class="color letra">
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Géneros</th>
+              <th scope="col"></th>
+            </tr>
+          </thead>
+          <thead>
+            <tr>
+              <td>1</td>
+              <td>Fantasía</td>
+              <td><a href="#">Editar - Eliminar</a></td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Terror</td>
+              <td><a href="#">Editar - Eliminar</a></td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Drama</td>
+              <td><a href="#">Editar - Eliminar</a></td>
+            </tr>
+          </thead>
+            <tbody>
+            </tbody>
+    </table>
+  </div>
+  </div>
+
+  <hr>
+
+  <div class="row">
+    <div class="col-lg-12">
+      <h3 class="center"><b>NUEVO ALQUILER</b></h3><br>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-6">
+        <form>
+            <div>
+              <select name="estado" id="estado" class="form-control">
+                <option disabled selected value=null>Seleccione nombre del lector</option>
+                <option>Billy Barrios</option>
+                <option>Jhon Diaz</option>
+                <option>Carlos Diaz</option>
+            </select><br>
+            </div>
+            <div>
+              <select name="estado" id="estado" class="form-control">
+                <option disabled selected value=null>Seleccione un libro</option>
+                <option>El Retrato de Dorian Gray</option>
+                <option>El Alquimista</option>
+                <option>El Señor de los Anillos</option>
+            </select><br>
+            </div>
+            <div>
+                <input type="text" name="fechaSalida" id="fechaSalida" class="form-control" placeholder="Fecha de salida del libro" onfocus="(this.type='datetime-local')"><br>
+            </div>
+            <div>
+                <input type="text" name="fechaEntrada" id="fechaEntrada" class="form-control" placeholder="Fecha de entrada del libro" onfocus="(this.type='datetime-local')"><br>
+            </div>
+            <div>
+                <select name="estado" id="estado" class="form-control">
+                    <option disabled selected value=null>Seleccione estado del libro</option>
+                    <option>Prestado</option>
+                    <option>Entregado</option>
+                </select><br>
+            </div>
+            <div class="form-action-buttons" >
+                <input class="btn btn-primary btn-lg" type="submit" value="Añadir Alquiler">
+            </div>
+        </form><br>
+    </div>
+
+</div>
+
+<div class="row">
+  <div class="col-lg-12">
+      <table class="table table-bordered  " id="tabla">
+        <thead class="color letra">
+            <tr>
+              <th scope="col">Libro</th>
+              <th scope="col">Autor</th>
+              <th scope="col">Género</th>
+              <th scope="col">Editorial</th>
+              <th scope="col">Idioma</th>
+              <th scope="col">Publicación</th>
+              <th scope="col"># Páginas</th>
+              <th scope="col"></th>
+            </tr>
+          </thead>
+          <thead>
+            <tr>
+              <td>El Retrato de Dorian Gray</td>
+              <td>Oscar Wilde</td>
+              <td>Drama</td>
+              <td>Nova</td>
+              <td>Español</td>
+              <td>1886</td>
+              <td>563</td>
+              <td><a href="#">Editar - Eliminar</a></td>
+            </tr>
+            <tr>
+              <td>El Retrato de Dorian Gray</td>
+              <td>Oscar Wilde</td>
+              <td>Drama</td>
+              <td>Nova</td>
+              <td>Español</td>
+              <td>1886</td>
+              <td>563</td>
+              <td><a href="#">Editar - Eliminar</a></td>
+            </tr>
+            <tr>
+              <td>El Retrato de Dorian Gray</td>
+              <td>Oscar Wilde</td>
+              <td>Drama</td>
+              <td>Nova</td>
+              <td>Español</td>
+              <td>1886</td>
+              <td>563</td>
+              <td><a href="#">Editar - Eliminar</a></td>
+            </tr>
+          </thead>
+            <tbody>
+            </tbody>
+    </table>
+    </div>
+</div>
+
+</div>
